@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - print the text
- *
- *return: 0
+ *main - entry point
+ *print the message
+ *return: Always 0(success)
  */
 int main(void)
 {
