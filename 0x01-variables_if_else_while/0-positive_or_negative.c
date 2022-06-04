@@ -4,12 +4,27 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+int main()
 {
-  int n;
+  int num;
 
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
-  /* your code goes there */
-  return (0);
+  /* Input number from user */
+  printf("Enter any number: ");
+  scanf("%d", &num);
+
+
+  if(num > 0)
+    {
+      printf("Number is POSITIVE");
+    }
+  if(num < 0)
+    {
+      printf("Number is NEGATIVE");
+    }
+  if(num == 0)
+    {
+      printf("Number is ZERO");
+    }
+
+  return 0;
 }
