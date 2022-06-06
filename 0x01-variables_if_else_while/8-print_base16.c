@@ -6,12 +6,13 @@
  * Return:0
  */
 int main(void)
+int i , j;
 {
-for (int i = 0; i < 10; i++)
+for (i = 0; i < 10; i++)
 {
 putchar (i + '0');
 }
-for (int j = 'a'; j <= 'f'; j++)
+for (j = 'a'; j <= 'f'; j++)
 {
 putchar (j);
 }
