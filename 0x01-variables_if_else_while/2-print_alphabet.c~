@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - main entry
+ * Description: print the alphabet letter
+ * Return: 0
+ */
+int main(void)
+{
+char d = 'a';
+while (d <= 'z')
+{
+putchar(d);
+c++;
+}
+putchar('\n');
+return (0);
+}
