@@ -8,21 +8,20 @@
  **/
 int main()
 {
-int num;
-printf("Enter any number: ");
-scanf("%d", &num);
-if (num > 0)
+int n;
+scanf("%d", &n);
+if (n > 0)
     {
-      printf("%d is postive\n",num);
+printf("%d is postive\n", n);
     }
-if(num < 0)
+if (n < 0)
     {
-      printf("%d is negative\n", num);
+printf("%d is negative\n", n);
     }
-if(num == 0)
+if (n == 0)
     {
-      printf("%d is zero\n",num);
+printf("%d is zero\n", n);
     }
 
-return 0;
+return (0);
 }
