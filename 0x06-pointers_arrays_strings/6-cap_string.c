@@ -1,12 +1,15 @@
 #include "main.h"
+
 /**
  * cap_string - capitalizes all words of a string.
  * @s: pointer to input string.
  * main - chack the code
+ *
  * Return: Always 0.
  */
+
 char *cap_string(char *s)
-  {
+{
 	int i, j;
 	char sep[] = " \t\n,;.!?\"(){}";
 	i = 1;
