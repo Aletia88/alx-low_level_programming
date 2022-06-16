@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-/**
-}
 
 /**
  * cap_string - Capitalizes all words of a string
@@ -31,6 +29,8 @@ char *cap_string(char *s)
         }
         return (ptr);
 }
+
+/**
  * isLower - Determines whether ascii is lowercase
  *
  * @c: Character
